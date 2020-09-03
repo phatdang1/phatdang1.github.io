@@ -1,0 +1,154 @@
+.header a{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5px;
+
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+.tv:hover {
+    color: #ffb3b3;
+}
+
+.highlights:hover {
+    color: #ffb3b3;
+}
+
+.tv {
+    padding-left: 10px;
+}
+
+.highlights {
+    padding-right: 10px;
+}
+
+body {
+    animation: fadein 2s;
+    background-color: #F7F7F7;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.pictureOfMe {
+    text-align: center;
+}
+
+.pictureOfMe img {
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+}
+
+.bodyStuff {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width: 320px) { 
+    .intro {
+        font-size: 16px;
+    }
+    .bodyStuff {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+
+        position: absolute;
+        height: 220px;
+        width: 300px;
+        margin: -175px 0 0 -150px;
+        top: 50%;
+        left: 50%;
+    }
+    .pictureOfMe img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 360px) { 
+    .intro {
+        font-size: 16px;
+    }
+    .bodyStuff {
+        font-family: 'Courier New', Courier, monospace;
+
+        position: absolute;
+        height: 220px;
+        width: 350px;
+        margin: -175px 0 0 -175px;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media (min-width: 500px) {
+    .intro {
+        font-size: 19px;
+    }
+    .bodyStuff {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+
+        position: absolute;
+        height: 200px;
+        width: 400px;
+        margin: -175px 0 0 -200px;
+        top: 50%;
+        left: 50%;
+    }
+
+    .pictureOfMe img {
+        width: 150px;
+        height: 150px;
+        border-radius: 250px;
+    }
+}
+
+.intro {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    color: #ffb3b3;
+}
+
+.otherLinks {
+    padding-top: 5px;
+}
+
+.otherLinks a {
+    color: #333333;
+    text-decoration: none;
+
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+}
+
+.github:hover {
+    color: #ffb3b3;
+ }
+
+ .linkedin:hover {
+    color: #ffb3b3;
+ }
+
+ .cv:hover {
+    color: #ffb3b3;
+ }
+
+ .goodbye {
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+    font-size: 9px;
+    padding-bottom: 10px;
+ }
