@@ -219,6 +219,7 @@ body {
 }
 .title {
     padding-top: 50px;
+    padding-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
