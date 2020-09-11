@@ -9,7 +9,7 @@
     -moz-transition: color 0.3s linear;
 }
 
-.tv:hover {
+.Home:hover:hover {
     color: #ffb3b3;
 }
 
@@ -39,11 +39,11 @@ body {
     }
 }
 
-.pictureOfMe {
+.profilePicture {
     text-align: center;
 }
 
-.pictureOfMe img {
+.profilePicture img {
     width: 150px;
     height: 150px;
     border-radius: 250px;
