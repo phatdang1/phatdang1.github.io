@@ -28,8 +28,16 @@
     font-size: 16px;
     cursor: pointer;
 }
+.fa-linkedin{
+    color: #0E76A8;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    
+}
 .cv{
-    background-color: white;
+    background-color: #F7F7F7;
     border: 1px;
     border-radius: 0;
     border-width: 1px;
@@ -39,6 +47,7 @@
     margin: 5px;
     font-size: 16px;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 .btn-linkedin {
     background: #0E76A8;
@@ -49,6 +58,7 @@
     border-color: #084461;
     padding: 9px 16px;
     margin: 5px;
+    margin-bottom: 40px;
   }
   .btn-github {
     background: #272626;
@@ -59,6 +69,7 @@
     border-color: #084461;
     padding: 9px 16px;
     margin: 5px;
+    margin-bottom: 40px;
   }
   .btn-linkedin:active, .btn-linkedin:hover {
     background: #084461;
@@ -71,7 +82,7 @@
 
 body {
     animation: fadein 2s;
-    background-color: #d3d3d3;
+    background-color: #fff;
 }
 
 @keyframes fadein {
@@ -196,3 +207,74 @@ body {
     font-size: 9px;
     padding-bottom: 10px;
  }
+ .header a{
+    font-family: "Courier New";
+    padding-top: 5px;
+
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+.title {
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+ .container {
+    font-family: 'Courier New', Courier, monospace;
+    border-left: 5px dotted red;
+    padding-left: 10px;
+}
+
+@media (min-width: 320px) {
+    .container {
+        font-family: 'Courier New', Courier, monospace;
+    
+        position: absolute;
+        height: 1000px;
+        width: 290px;
+        margin: -200px 0 0 -145px;
+        top: 50%;
+        left: 50%;
+    
+        border-left: 5px dotted #ffb3b3;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 500px) {
+.container {
+        font-family: 'Courier New', Courier, monospace;
+
+        position: absolute;
+        height: 500px;
+        width: 400px;
+        margin: -200px 0 0 -200px;
+        top: 50%;
+        left: 50%;
+
+        border-left: 5px dotted red;
+        padding-left: 10px;
+    }
+}
+
+p {
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+
+body {
+    animation: fadein 2s;
+    background-color: #F7F7F7;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
