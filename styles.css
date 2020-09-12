@@ -222,7 +222,7 @@ body {
 }
 .title {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
@@ -238,7 +238,7 @@ body {
         font-family: 'Courier New', Courier, monospace;
     
         position: absolute;
-        height: 1000px;
+        height: 500px;
         width: 290px;
         margin: -200px 0 0 -145px;
         top: 50%;
