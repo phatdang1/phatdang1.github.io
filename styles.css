@@ -83,7 +83,7 @@ h1{
     color: #fff;
   }
 
-body {
+body, head {
     animation: fadein 2s;
     background-color: #fff;
 }
