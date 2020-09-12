@@ -221,16 +221,17 @@ body, head {
     -moz-transition: color 0.3s linear;
 }
 .title {
-    padding-top: 30px;
-    padding-bottom: 40px;
+
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+   
 }
  .container {
     font-family: 'Courier New', Courier, monospace;
     border-left: 5px dotted red;
     padding-left: 10px;
     padding-top: auto;
+    margin-top: auto;
 }
 
 @media (min-width: 320px) {
@@ -270,7 +271,8 @@ p {
     font-size: 12px;
 }
 
-body {
+body{
+    
     animation: fadein 2s;
     background-color: #F7F7F7;
 }
