@@ -225,6 +225,7 @@ body {
     padding-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin-bottom: 10px;
 }
  .container {
     font-family: 'Courier New', Courier, monospace;
@@ -243,7 +244,7 @@ body {
         top: 50%;
         left: 50%;
     
-        border-left: 5px dotted #ffb3b3;
+        border-left: 5px dotted red;
         padding-left: 10px;
     }
 }
